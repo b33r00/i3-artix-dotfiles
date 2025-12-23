@@ -29,3 +29,7 @@ My personal **Artix Linux (runit)** rice focused on minimalism, performance, and
 .zshrc
 .xinitrc
 ricepicture.png
+
+## Screenshot
+
+![Artix Linux i3 rice](ricepicture.png)
