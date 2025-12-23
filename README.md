@@ -1,3 +1,4 @@
+```md
 # Artix Linux i3 Rice
 
 My personal **Artix Linux (runit)** rice focused on minimalism, performance, and a clean dark aesthetic.
@@ -19,17 +20,12 @@ My personal **Artix Linux (runit)** rice focused on minimalism, performance, and
 ## Repository Structure
 ```text
 .config/
- ├── alacritty/
- ├── dunst/
- ├── mantablockscreen/
- ├── picom/
- ├── polybar/
- └── rofi/
+  ├── alacritty/
+  ├── dunst/
+  ├── mantablockscreen/
+  ├── picom/
+  ├── polybar/
+  └── rofi/
 
 .zshrc
 .xinitrc
-ricepicture.png
-
-## Screenshot
-
-![Artix Linux i3 rice](ricepicture.png)
