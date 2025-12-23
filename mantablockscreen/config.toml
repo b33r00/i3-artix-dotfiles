@@ -1,0 +1,24 @@
+# ~/.config/mantablockscreen/config.toml
+
+# Path to the wallpaper (absolute path)
+background_image = "/home/b4rn3y/Pictures/wallpaper.jpg"
+
+# Blur effect options
+blur_enabled = true
+blur_radius = 10
+blur_method = "kawase"
+
+# Lock screen timeout (seconds)
+timeout = 300
+
+# Time format for display
+time_format = "%H:%M"
+
+# Unlock feedback (play sound)
+unlock_feedback = true
+
+# Touchpad wakeup
+touchpad_wake = true
+
+# Animation enabled
+animation_enabled = true

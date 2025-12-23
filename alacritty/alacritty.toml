@@ -1,0 +1,23 @@
+[terminal.shell]
+program = "/usr/bin/zsh"
+args = ["--login"]
+
+[font]
+size = 7.1
+
+[font.normal]
+family = "monospace"
+style = "Regular"
+
+[terminal]
+
+[window]
+padding = { x = 8, y = 8 }
+dynamic_padding = true
+decorations = "None"
+opacity = 0.5
+startup_mode = "Windowed"
+title = "MegsTerm"
+dynamic_title = true
+class = { instance = "Alacritty", general = "MegsTerm" }
+resize_increments = false

@@ -1,0 +1,109 @@
+/* Minimal black box Rofi theme – minden réteg explicit fekete */
+
+* {
+    background: #000000ff;
+    foreground: #f5f5dcff;
+    border-color: #f5f5dcff;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font: "monospace 10";
+}
+
+window {
+    background-color: #000000ff;   /* explicit fekete */
+    foreground: #f5f5dcff;
+    width: 200px;
+    location: center;
+    border-width: 1px;
+    border-color: #f5f5dcff;
+    padding: 0;
+    children: [mainbox];
+}
+
+mainbox {
+    background-color: #000000ff;   /* explicit fekete */
+    border-width: 0;
+    padding: 0;
+    children: [inputbar, listview];
+}
+
+inputbar {
+    background-color: #000000ff;   /* explicit fekete */
+    foreground: #f5f5dcff;
+    children: [entry];
+    border-width: 0;
+    padding: 2px;
+}
+
+entry {
+    background-color: #000000ff;   /* explicit fekete */
+    foreground: #f5f5dcff;
+    spacing: 0;
+}
+
+listview {
+    background-color: #000000ff;   /* explicit fekete */
+    foreground: #f5f5dcff;
+    lines: 5;                      /* max 5 elem */
+    line-height: 20px;
+    border-width: 0;
+    spacing: 0;
+    scrollbar: false;               /* minimal box */
+}
+
+element {
+    background-color: #000000ff;   /* explicit fekete minden elemhez */
+    foreground: #f5f5dcff;         /* világos szöveg */
+    border-width: 0;
+    padding: 2px 4px;
+}
+
+element-text {
+    background-color: #000000ff;   /* fekete */
+    text-color: #f5f5dcff;         /* világos krém */
+}
+
+
+
+/* Kiválasztott normál elem */
+element.selected.normal {
+    background-color: #505050ff;  /* világosabb szürke háttér */
+    text-color: #ffff99;          /* világos krém-sárga szöveg */
+}
+
+/* Kiválasztott aktív elem */
+element.selected.active {
+    background-color: #505050ff;
+    text-color: #ffff99;
+}
+
+/* Kiválasztott urgent elem */
+element.selected.urgent {
+    background-color: #505050ff;
+    text-color: #ffff99;
+}
+
+/* Kiválasztott alternatív elem */
+element.alternate.selected {
+    background-color: #505050ff;
+    text-color: #ffff99;
+}
+
+
+
+
+
+/* minden állapot explicit lefedve */
+element.normal.normal,
+element.normal.active,
+element.normal.urgent,
+element.selected.normal,
+element.selected.active,
+element.selected.urgent,
+element.alternate.normal,
+element.alternate.active,
+element.alternate.urgent {
+    background-color: #000000ff;
+    text-color: #f5f5dcff;
+}
