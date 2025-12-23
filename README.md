@@ -17,12 +17,21 @@ My personal **Artix Linux (runit)** rice focused on minimalism, performance, and
 - **Cursor Theme:** WinSur-dark-cursors
 
 ## Repository Structure
-
 ```text
 .config/
-  ├── alacritty/
-  ├── dunst/
-  ├── mantablockscreen/
-  ├── picom/
-  ├── polybar/
-  └── rofi/
+ ├── alacritty/
+ ├── dunst/
+ ├── mantablockscreen/
+ ├── picom/
+ ├── polybar/
+ └── rofi/
+
+.zshrc
+.xinitrc
+```
+
+## Screenshot
+
+![rice](ricepicture.png)
+
+
