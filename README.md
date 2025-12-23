@@ -1,6 +1,43 @@
-# i3-artix-dotfiles
-My personal Artix Linux (runit) rice -- i3wm, polybar, picom, rofi, alacritty, and custom scripts.
+# Artix Linux i3 Rice
 
+My personal **Artix Linux (runit)** rice focused on minimalism, performance, and a clean dark aesthetic.
+Built around **i3wm** with carefully tuned visuals and lightweight tooling.
 
-gtk-theme: Adwaita
-cursor: WinSur-dark-cursors
+## Environment
+- **OS:** Artix Linux (runit)
+- **WM:** i3wm
+- **Bar:** polybar
+- **Compositor:** picom
+- **Launcher:** rofi
+- **Terminal:** alacritty
+- **Shell:** zsh
+- **Notifications:** dunst
+
+## Theme & Appearance
+- **GTK Theme:** Adwaita
+- **Cursor Theme:** WinSur-dark-cursors
+- **Font:** JetBrains Mono (recommended)
+- **Color Scheme:** Dark / muted tones with subtle red accents
+
+## Features
+- Minimal and distraction-free layout
+- Custom polybar modules
+- Lightweight compositor configuration
+- Fast startup and low resource usage
+- Keyboard-driven workflow
+- Custom scripts for system info and status
+
+## Repository Structure
+```text
+.config/
+ ├── i3/
+ ├── polybar/
+ ├── picom/
+ ├── rofi/
+ └── dunst/
+
+screenshots/
+ └── ricepicture.png
+
+.Xresources
+.xinitrc
