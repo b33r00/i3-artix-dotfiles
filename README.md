@@ -1,4 +1,3 @@
-```md
 # Artix Linux i3 Rice
 
 My personal **Artix Linux (runit)** rice focused on minimalism, performance, and a clean dark aesthetic.
@@ -18,6 +17,7 @@ My personal **Artix Linux (runit)** rice focused on minimalism, performance, and
 - **Cursor Theme:** WinSur-dark-cursors
 
 ## Repository Structure
+
 ```text
 .config/
   ├── alacritty/
@@ -26,6 +26,3 @@ My personal **Artix Linux (runit)** rice focused on minimalism, performance, and
   ├── picom/
   ├── polybar/
   └── rofi/
-
-.zshrc
-.xinitrc
